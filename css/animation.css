@@ -1,0 +1,47 @@
+@keyframes typing {
+  /* Ahmed Omar */
+  0%   { content: "A"; }
+  3%   { content: "Ah"; }
+  6%   { content: "Ahm"; }
+  9%   { content: "Ahmed"; }
+  12%  { content: "Ahmed O"; }
+  15%  { content: "Ahmed Om"; }
+  18%  { content: "Ahmed Oma"; }
+  21%  { content: "Ahmed Omar"; }
+
+  /* delete */
+  26%  { content: "Ahmed Oma"; }
+  28%  { content: "Ahmed Om"; }
+  30%  { content: "Ahmed O"; }
+  32%  { content: "Ahmed"; }
+  34%  { content: "Ahm"; }
+  36%  { content: "A"; }
+  38%  { content: ""; }
+
+  /* Developer */
+  42%  { content: "D"; }
+  45%  { content: "De"; }
+  48%  { content: "Dev"; }
+  51%  { content: "Devel"; }
+  54%  { content: "Develop"; }
+  57%  { content: "Developer"; }
+
+  /* delete */
+  62%  { content: "Develop"; }
+  65%  { content: "Devel"; }
+  68%  { content: "Dev"; }
+  71%  { content: "De"; }
+  74%  { content: "D"; }
+  77%  { content: ""; }
+
+  /* Designer */
+  81%  { content: "D"; }
+  84%  { content: "Des"; }
+  87%  { content: "Design"; }
+  90%  { content: "Designer"; }
+
+  /* delete */
+  94%  { content: "Design"; }
+  97%  { content: "Des"; }
+  100% { content: ""; }
+}
