@@ -25,17 +25,15 @@
   --bs-nav-link-hover-color: #fff;
 }
 
-
-.navbar-toggler{
-    background-color: white;
+.navbar-toggler {
+  background-color: white;
 }
-
 
 /* Main Section */
 #home {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(images/Background.jpg);
+    url(../images/Background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,8 +48,6 @@
   width: 35px;
   height: 35px;
 }
-
-
 
 /* About Section */
 #about .about-img::after {
@@ -93,8 +89,6 @@
   background-color: #000;
   color: #fff;
 }
-
-
 
 /* Services Section */
 .services {
@@ -155,8 +149,6 @@
   font-size: 18px;
   margin: 1rem 0;
 }
-
-
 
 /* Portfolio Section */
 .tab-pane img {
@@ -293,8 +285,6 @@
   right: 10px;
 }
 
-
-
 /* Testimonials Section */
 .testimonials {
   background-color: #f7f7f7;
@@ -367,117 +357,100 @@
   font-weight: 600;
 }
 
-
-
-
 /* Team Section */
-.team{
-    background: #f7f7f7;
+.team {
+  background: #f7f7f7;
 }
-.team h3{
-    position: relative;
-    font-weight: 900;
-    font-size: 40px;
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 7rem;
-    margin-top: 3rem;
-z-index: 4;
+.team h3 {
+  position: relative;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 7rem;
+  margin-top: 3rem;
+  z-index: 4;
 }
-.team h3::after{
-    content: "";
-    width:20%;
-    height: 30px;
-    background-image: url(../images/dots.png);
-    background-repeat: repeat;
-    position: absolute;
-    left: 50%;
-    bottom: -6px;
-    transform: translate(-50%);
-    z-index: -1;
+.team h3::after {
+  content: "";
+  width: 20%;
+  height: 30px;
+  background-image: url(../images/dots.png);
+  background-repeat: repeat;
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translate(-50%);
+  z-index: -1;
 }
-.team h4{
-    font-family: "Montserrat", sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-    color: #fff;
+.team h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
 }
-.team h5{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
+.team h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
 }
-.team .card-body{
-    background-color: #281d38;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-
-.team-img{
-    position: relative;
-    transition: 0.5s all;
-}
-.team-over-lay{
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 4px;
-    left: 10px;
-    right: 10px;
-    background-color:rgba(255, 255, 255, 0.9);
-    height: 96%;
-    transition: 0.5s ease;
-    text-align: center;
-    opacity: 0;
-    
-}
-.team-img:hover .team-over-lay{
-    
-transform: rotatey(360deg);
-opacity: 100;
-
-}
-.team-img{
-    overflow: hidden;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-   
-}
-.card-img-top{
-    transition: 0.5s all;
-}
-.team-img:hover  .card-img-top{
-    transform: scale(1.2);
-   
-
+.team .card-body {
+  background-color: #281d38;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-
-.team-icon{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    background-color: #000;
-    margin: 0.5rem;
-    border: 1px solid black;
-    
-
+.team-img {
+  position: relative;
+  transition: 0.5s all;
 }
-.team-icon i{
-    color: #fff;
-    font-size: 20px;
+.team-over-lay {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 4px;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 96%;
+  transition: 0.5s ease;
+  text-align: center;
+  opacity: 0;
 }
-.team-icon:hover{
-    background-color: #fff;
-
+.team-img:hover .team-over-lay {
+  transform: rotatey(360deg);
+  opacity: 100;
 }
-.team-icon:hover i{
-    color: #000;
+.team-img {
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-img-top {
+  transition: 0.5s all;
+}
+.team-img:hover .card-img-top {
+  transform: scale(1.2);
 }
 
-
-
+.team-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #000;
+  margin: 0.5rem;
+  border: 1px solid black;
+}
+.team-icon i {
+  color: #fff;
+  font-size: 20px;
+}
+.team-icon:hover {
+  background-color: #fff;
+}
+.team-icon:hover i {
+  color: #000;
+}
 
 /* Contact Section */
 .contact h3 {
