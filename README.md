@@ -1,6 +1,6 @@
 🔗 Live Demo: https://ahmedomardarwish.github.io/Ahmed-omar-Profile-Landing-page/
 
-Ahmed Omar – Profile & Software Solutions Landing Page is a clean, modern, and fully responsive personal landing page built with Tailwind CSS.
+Profile & Software Solutions Landing Page is a clean, modern, and fully responsive personal landing page built with Tailwind CSS.
 It’s designed to highlight professional skills, services, portfolio projects, client testimonials, and contact information in a polished one-page layout, optimized for all screen sizes and devices.
 
 This project provides a strong visual presentation of your personal brand, making it ideal for professionals, developers, and freelancers looking to showcase their work and services with impact.
