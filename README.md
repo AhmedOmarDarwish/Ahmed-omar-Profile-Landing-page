@@ -2,7 +2,7 @@
 
 # Profile - Software Solutions Landing Page
 
-![Profile Preview](assets/images/Profile-Cover.png)
+![Profile Preview](images/Profile-Cover.png)
 
 
 Profile & Software Solutions Landing Page is a clean, modern, and fully responsive personal landing page built with Tailwind CSS.
